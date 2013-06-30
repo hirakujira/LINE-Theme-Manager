@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8181AB17801E13006820E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8181AA17801E13006820E4 /* UIKit.framework */; };
+		CA8181AD17801E13006820E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8181AC17801E13006820E4 /* Foundation.framework */; };
+		CA8181AF17801E13006820E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8181AE17801E13006820E4 /* CoreGraphics.framework */; };
+		CA8181B517801E13006820E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA8181B317801E13006820E4 /* InfoPlist.strings */; };
+		CA8181B717801E13006820E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8181B617801E13006820E4 /* main.m */; };
+		CA8181BB17801E13006820E4 /* LTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8181BA17801E13006820E4 /* LTMAppDelegate.m */; };
+		CA8181BD17801E13006820E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8181BC17801E13006820E4 /* Default.png */; };
+		CA8181BF17801E13006820E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8181BE17801E13006820E4 /* Default@2x.png */; };
+		CA8181C117801E13006820E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8181C017801E13006820E4 /* Default-568h@2x.png */; };
+		CA8181C417801E13006820E4 /* LTMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8181C317801E13006820E4 /* LTMMasterViewController.m */; };
+		CA8181C717801E13006820E4 /* LTMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8181C617801E13006820E4 /* LTMDetailViewController.m */; };
+		CA8181CA17801E13006820E4 /* LTMMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8181C817801E13006820E4 /* LTMMasterViewController.xib */; };
+		CA8181CD17801E13006820E4 /* LTMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8181CB17801E13006820E4 /* LTMDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA8181A717801E13006820E4 /* LINEThemeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LINEThemeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8181AA17801E13006820E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA8181AC17801E13006820E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA8181AE17801E13006820E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA8181B217801E13006820E4 /* LINEThemeManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LINEThemeManager-Info.plist"; sourceTree = "<group>"; };
+		CA8181B417801E13006820E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA8181B617801E13006820E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8181B817801E13006820E4 /* LINEThemeManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LINEThemeManager-Prefix.pch"; sourceTree = "<group>"; };
+		CA8181B917801E13006820E4 /* LTMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMAppDelegate.h; sourceTree = "<group>"; };
+		CA8181BA17801E13006820E4 /* LTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMAppDelegate.m; sourceTree = "<group>"; };
+		CA8181BC17801E13006820E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA8181BE17801E13006820E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA8181C017801E13006820E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA8181C217801E13006820E4 /* LTMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMMasterViewController.h; sourceTree = "<group>"; };
+		CA8181C317801E13006820E4 /* LTMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMMasterViewController.m; sourceTree = "<group>"; };
+		CA8181C517801E13006820E4 /* LTMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMDetailViewController.h; sourceTree = "<group>"; };
+		CA8181C617801E13006820E4 /* LTMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMDetailViewController.m; sourceTree = "<group>"; };
+		CA8181C917801E13006820E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTMMasterViewController.xib; sourceTree = "<group>"; };
+		CA8181CC17801E13006820E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTMDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8181A417801E13006820E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8181AB17801E13006820E4 /* UIKit.framework in Frameworks */,
+				CA8181AD17801E13006820E4 /* Foundation.framework in Frameworks */,
+				CA8181AF17801E13006820E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA81819E17801E13006820E4 = {
+			isa = PBXGroup;
+			children = (
+				CA8181B017801E13006820E4 /* LINEThemeManager */,
+				CA8181A917801E13006820E4 /* Frameworks */,
+				CA8181A817801E13006820E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8181A817801E13006820E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8181A717801E13006820E4 /* LINEThemeManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8181A917801E13006820E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA8181AA17801E13006820E4 /* UIKit.framework */,
+				CA8181AC17801E13006820E4 /* Foundation.framework */,
+				CA8181AE17801E13006820E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8181B017801E13006820E4 /* LINEThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				CA8181B917801E13006820E4 /* LTMAppDelegate.h */,
+				CA8181BA17801E13006820E4 /* LTMAppDelegate.m */,
+				CA8181C217801E13006820E4 /* LTMMasterViewController.h */,
+				CA8181C317801E13006820E4 /* LTMMasterViewController.m */,
+				CA8181C517801E13006820E4 /* LTMDetailViewController.h */,
+				CA8181C617801E13006820E4 /* LTMDetailViewController.m */,
+				CA8181C817801E13006820E4 /* LTMMasterViewController.xib */,
+				CA8181CB17801E13006820E4 /* LTMDetailViewController.xib */,
+				CA8181B117801E13006820E4 /* Supporting Files */,
+			);
+			path = LINEThemeManager;
+			sourceTree = "<group>";
+		};
+		CA8181B117801E13006820E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8181B217801E13006820E4 /* LINEThemeManager-Info.plist */,
+				CA8181B317801E13006820E4 /* InfoPlist.strings */,
+				CA8181B617801E13006820E4 /* main.m */,
+				CA8181B817801E13006820E4 /* LINEThemeManager-Prefix.pch */,
+				CA8181BC17801E13006820E4 /* Default.png */,
+				CA8181BE17801E13006820E4 /* Default@2x.png */,
+				CA8181C017801E13006820E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8181A617801E13006820E4 /* LINEThemeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8181D017801E13006820E4 /* Build configuration list for PBXNativeTarget "LINEThemeManager" */;
+			buildPhases = (
+				CA8181A317801E13006820E4 /* Sources */,
+				CA8181A417801E13006820E4 /* Frameworks */,
+				CA8181A517801E13006820E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LINEThemeManager;
+			productName = LINEThemeManager;
+			productReference = CA8181A717801E13006820E4 /* LINEThemeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA81819F17801E13006820E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LTM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Hiraku;
+			};
+			buildConfigurationList = CA8181A217801E13006820E4 /* Build configuration list for PBXProject "LINEThemeManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA81819E17801E13006820E4;
+			productRefGroup = CA8181A817801E13006820E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8181A617801E13006820E4 /* LINEThemeManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8181A517801E13006820E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8181B517801E13006820E4 /* InfoPlist.strings in Resources */,
+				CA8181BD17801E13006820E4 /* Default.png in Resources */,
+				CA8181BF17801E13006820E4 /* Default@2x.png in Resources */,
+				CA8181C117801E13006820E4 /* Default-568h@2x.png in Resources */,
+				CA8181CA17801E13006820E4 /* LTMMasterViewController.xib in Resources */,
+				CA8181CD17801E13006820E4 /* LTMDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8181A317801E13006820E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8181B717801E13006820E4 /* main.m in Sources */,
+				CA8181BB17801E13006820E4 /* LTMAppDelegate.m in Sources */,
+				CA8181C417801E13006820E4 /* LTMMasterViewController.m in Sources */,
+				CA8181C717801E13006820E4 /* LTMDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA8181B317801E13006820E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8181B417801E13006820E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA8181C817801E13006820E4 /* LTMMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8181C917801E13006820E4 /* en */,
+			);
+			name = LTMMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA8181CB17801E13006820E4 /* LTMDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8181CC17801E13006820E4 /* en */,
+			);
+			name = LTMDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA8181CE17801E13006820E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA8181CF17801E13006820E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8181D117801E13006820E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LINEThemeManager/LINEThemeManager-Prefix.pch";
+				INFOPLIST_FILE = "LINEThemeManager/LINEThemeManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA8181D217801E13006820E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LINEThemeManager/LINEThemeManager-Prefix.pch";
+				INFOPLIST_FILE = "LINEThemeManager/LINEThemeManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8181A217801E13006820E4 /* Build configuration list for PBXProject "LINEThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8181CE17801E13006820E4 /* Debug */,
+				CA8181CF17801E13006820E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8181D017801E13006820E4 /* Build configuration list for PBXNativeTarget "LINEThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8181D117801E13006820E4 /* Debug */,
+				CA8181D217801E13006820E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA81819F17801E13006820E4 /* Project object */;
+}
