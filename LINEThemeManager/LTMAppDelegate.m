@@ -18,6 +18,7 @@
     // Override point for customization after application launch.
 
     LTMMasterViewController *masterViewController = [[LTMMasterViewController alloc] initWithNibName:@"LTMMasterViewController" bundle:nil];
+    
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];

@@ -1,0 +1,5 @@
+#!/bin/bash
+C=/${0}
+C=${C%/*}
+M=`/bin/uname -m`
+exec "${C:-.}"/LINEThemeManager2
